@@ -1,0 +1,50 @@
+.home {
+  height: 100vh;
+  background-color: rgb(255, 217, 0);
+}
+.home__display {
+  padding-top: 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90%;
+}
+.home__presentation {
+  margin-left: 20px;
+}
+.home__presentation > h1 {
+  font-size: 72px;
+  font-weight: 800;
+  padding-bottom: 100px;
+}
+.home__presentation > h2 {
+  font-weight: 600;
+  padding-bottom: 150px;
+}
+.home__presentation > p {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+.home__confiture {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+img {
+  height: 400px;
+  width: 400px;
+  transition: transform 2s ease-in-out;
+}
+.moveJam {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 2s ease-in-out;
+}
+.moveJam > img {
+  height: 700px;
+  width: 700px;
+  transition: all 2s ease-in-out;
+}
